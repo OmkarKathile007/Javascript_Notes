@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle{
+    
+    position: absolute;
+    background-color: aquamarine;
+    /* height: 150px;
+    width: 150px; */
+    border-radius: 100%;
+}
+
+.first{
+    /* position: absolute; */
+    height: 150px;
+    width: 150px;
+}
+
+
+.second{
+    height: 100px;
+    width: 100px;
+    background-color :red;
+}
+
+.card{
+     width: 25%;
+     height: 60%;
+     border: 5px solid grey;
+     background-color: yellow;
+
+     animation: Omkar 5s ease 2 infinite ;
+     transform: translateX(10px);
+}
+
+@keyframes Omkar {
+    0%{
+        transform: translateX(50px);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(300px);
+    }
+}

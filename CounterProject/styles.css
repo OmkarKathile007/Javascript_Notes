@@ -1,0 +1,58 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .heading{
+    color: white;
+    font-size: large;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 2px ;
+    
+    
+}
+
+.log{
+    width: 30%;
+    height: 99.2%;
+    border: none;
+
+}
+.plus{
+    border-left: 0.5px solid #bfbfbf;
+    height: 80%;
+    background-color: white;
+    
+}
+.minus{
+    border-right: 0.5px solid #bfbfbf;
+    height: 80%;
+    background-color: white;
+    
+}
+.counter{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

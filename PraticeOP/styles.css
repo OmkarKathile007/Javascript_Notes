@@ -1,0 +1,35 @@
+/* 
+
+
+/* #wrapper{
+     height: 100px;
+     width: 500px;
+     background-color: blue;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     /* align-items: center; 
+}  
+*/
+
+
+.op{
+    text-align: center;
+    background-color: wheat;
+    border: none;
+    padding: 10px 50px;
+    color: gray;
+    font-size: large;
+    border-radius: 5px;
+}
+
+button{
+
+    padding: 10px 50px;
+    font-size: large;
+    background-color: rgb(255, 200, 97);
+    border: none;
+    color: brown;
+    border-radius: 5px;
+
+}

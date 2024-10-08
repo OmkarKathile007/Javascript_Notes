@@ -1,0 +1,36 @@
+
+
+
+button{
+    margin: 5% 5% ;
+    background-color: orange;
+    padding: 20px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+
+.op{
+    height: 50px;
+    width: 50px;
+}
+
+/* #box1{
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 1000px;
+    background-color: aqua;
+    border: 1px solid black;
+} */
+
+#myDiv{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+
+
